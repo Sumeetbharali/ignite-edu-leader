@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Briefcase } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -149,9 +150,11 @@ const Contact = () => {
                 <p className="text-primary-foreground/90 mb-6">
                   We're always looking for talented individuals who are passionate about education and technology.
                 </p>
-                <Button variant="outline" size="lg" className="bg-background/10 border-primary-foreground/30 text-primary-foreground hover:bg-background/20">
-                  View Open Positions
-                </Button>
+                <Link to="/careers">
+                  <Button variant="outline" size="lg" className="bg-background/10 border-primary-foreground/30 text-primary-foreground hover:bg-background/20">
+                    View Open Positions
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>

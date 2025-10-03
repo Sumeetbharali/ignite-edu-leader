@@ -1,6 +1,7 @@
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,7 +55,9 @@ const Header = () => {
             >
               Contact
             </button>
-            <Button variant="accent" size="sm">Join Our Team</Button>
+            <Link to="/careers">
+              <Button variant="accent" size="sm">Join Our Team</Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -100,7 +103,9 @@ const Header = () => {
               >
                 Contact
               </button>
-              <Button variant="accent" size="sm" className="w-full">Join Our Team</Button>
+              <Link to="/careers" className="w-full">
+                <Button variant="accent" size="sm" className="w-full">Join Our Team</Button>
+              </Link>
             </div>
           </div>
         )}
