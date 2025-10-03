@@ -25,11 +25,11 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            About EduTech Innovations
+            About Bipransh EdTech
           </h2>
           <div className="w-24 h-1 gradient-accent mx-auto rounded-full mb-6" />
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Founded in 2015, EduTech Innovations Pvt Ltd has been at the forefront of the education technology revolution. 
+            Founded in 2015, Bipransh EdTech Pvt Ltd has been at the forefront of the education technology revolution. 
             We are a team of passionate educators, technologists, and innovators committed to transforming learning experiences worldwide.
           </p>
         </div>
@@ -52,7 +52,7 @@ const About = () => {
           <h3 className="text-3xl font-bold text-foreground mb-6">Our Story</h3>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              EduTech Innovations was born from a simple belief: that technology could democratize education and 
+              Bipransh EdTech was born from a simple belief: that technology could democratize education and 
               create opportunities for learners everywhere. What started as a small team of five visionaries has 
               grown into a thriving organization serving millions of users globally.
             </p>

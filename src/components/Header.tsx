@@ -18,9 +18,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-lg gradient-hero flex items-center justify-center text-primary-foreground font-bold text-xl">
-              ET
+              BE
             </div>
-            <span className="font-semibold text-lg text-foreground">EduTech Innovations</span>
+            <span className="font-semibold text-lg text-foreground">Bipransh EdTech Pvt Ltd</span>
           </div>
 
           {/* Desktop Menu */}

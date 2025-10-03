@@ -8,19 +8,10 @@ const Footer = () => {
       { name: "About Us", href: "#about" },
       { name: "Leadership", href: "#team" },
       { name: "Careers", href: "#contact" },
-      { name: "Press Kit", href: "#" },
     ],
     platform: [
       { name: "LearnHub Pro", href: "#platform" },
       { name: "Features", href: "#platform" },
-      { name: "Pricing", href: "#" },
-      { name: "Case Studies", href: "#" },
-    ],
-    resources: [
-      { name: "Blog", href: "#" },
-      { name: "Help Center", href: "#" },
-      { name: "Documentation", href: "#" },
-      { name: "API", href: "#" },
     ],
     legal: [
       { name: "Privacy Policy", href: "#" },
@@ -41,14 +32,14 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
           {/* Company Info */}
           <div className="col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="h-10 w-10 rounded-lg gradient-accent flex items-center justify-center font-bold text-xl text-accent-foreground">
-                ET
+                BE
               </div>
-              <span className="font-semibold text-lg">EduTech Innovations</span>
+              <span className="font-semibold text-lg">Bipransh EdTech Pvt Ltd</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 text-sm leading-relaxed">
               Driving innovation in education technology. Empowering educators and learners worldwide since 2015.
@@ -101,23 +92,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources Links */}
-          <div>
-            <h3 className="font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              {footerLinks.resources.map((link, index) => (
-                <li key={index}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-primary-foreground/80 hover:text-accent transition-smooth"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Legal Links */}
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
@@ -140,7 +114,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-primary-foreground/70 text-center md:text-left">
-              <p>© {currentYear} EduTech Innovations Pvt Ltd. All rights reserved.</p>
+              <p>© {currentYear} Bipransh EdTech Pvt Ltd. All rights reserved.</p>
               <p className="mt-1">CIN: U72900DL2015PTC123456 | Registered in New Delhi, India</p>
             </div>
             <div className="flex gap-6 text-sm">

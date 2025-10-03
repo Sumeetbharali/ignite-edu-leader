@@ -88,7 +88,7 @@ const Corporate = () => {
         <div className="bg-card rounded-2xl shadow-medium p-8 md:p-12">
           <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Our Commitment to Social Responsibility</h3>
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto text-center mb-8">
-            At EduTech Innovations, we believe that with great success comes great responsibility. We are committed 
+            At Bipransh EdTech, we believe that with great success comes great responsibility. We are committed 
             to using our platform and resources to create positive social impact. Our CSR initiatives focus on 
             making quality education accessible to underserved communities and promoting environmental sustainability.
           </p>
