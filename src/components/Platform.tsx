@@ -35,7 +35,7 @@ const Platform = () => {
           </h2>
           <div className="w-24 h-1 gradient-accent mx-auto rounded-full mb-6" />
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Introducing LearnHub Pro - our flagship learning management system trusted by over 500 institutions worldwide.
+            Introducing CLASSWiX - our flagship learning management system trusted by over 500 institutions worldwide.
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const Platform = () => {
               Experience the Future of Learning
             </h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              LearnHub Pro is more than just a platform—it's a complete ecosystem designed to facilitate 
+              CLASSWiX is more than just a platform—it's a complete ecosystem designed to facilitate 
               seamless learning experiences. Built with the latest technology and informed by educational 
               best practices, it empowers educators to create engaging content and enables learners to 
               achieve their full potential.
@@ -68,7 +68,7 @@ const Platform = () => {
             </div>
 
             <Button variant="accent" size="lg" className="group">
-              Visit LearnHub Pro
+              Visit CLASSWiX
               <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-smooth" />
             </Button>
           </div>
@@ -77,7 +77,7 @@ const Platform = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-medium hover:shadow-soft transition-smooth">
               <img
                 src={platformImage}
-                alt="LearnHub Pro Platform Interface"
+                alt="CLASSWiX Platform Interface"
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 gradient-hero opacity-0 hover:opacity-10 transition-smooth" />

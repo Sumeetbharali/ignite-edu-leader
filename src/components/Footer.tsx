@@ -10,7 +10,7 @@ const Footer = () => {
       { name: "Careers", href: "#contact" },
     ],
     platform: [
-      { name: "LearnHub Pro", href: "#platform" },
+      { name: "CLASSWiX", href: "#platform" },
       { name: "Features", href: "#platform" },
     ],
     legal: [
